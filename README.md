@@ -25,7 +25,7 @@ If Alice, Bob, and Carlos cannot coordinate, then none of them will donate since
 
 ## Issues
 - Since the gas reimbursement rates are set in contract creation, if gas fees go up the reimbursements may cease being attractive.
-- There is no guarantee that the trigger call will include all levels that could be triggered-- in particular, it may 'skip' lower levels in favor of higher ones. This behavior is not logically incorrect but is arguably unfair.
+- There is no guarantee that the trigger call will include all levels that could be triggered-- in particular, it may 'skip' lower levels in favor of higher ones. This behavior is not logically incorrect but is arguably unfair if the contract has a max size of contributions.
 - The provided contracts check the balance of the donation target to determine triggering thresholds; this is more accurate than relying only on donations from the contract itself, but is not robust to 'cheating' through e.g. flashloans.
 
 ## Future Work
