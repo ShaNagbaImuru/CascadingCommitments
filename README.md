@@ -1,5 +1,5 @@
 # Cascading Commitments
-Cascading commitments are a coordination primitive on the blockchain that help people create and fulfill compacts: agreements to do something only if other people also agree to do it. You can think of it a little like a version of Kickstarter where the people giving the donations pick their own personal funding goal.
+Cascading commitments are a coordination primitive (technically a form of assurance contract) on the blockchain that help people create and fulfill compacts: agreements to do something only if other people also agree to do it. You can think of it a little like a version of Kickstarter where the people giving the donations pick their own personal funding goal.
 
 This is an experiment. Any feedback is greatly appreciated.
 
